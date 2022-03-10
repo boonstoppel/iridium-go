@@ -13,7 +13,7 @@ php listen.php
 
 ### Step 2:
 
-Send an test message 
+Send test message 
 
 ```
 php message.php
