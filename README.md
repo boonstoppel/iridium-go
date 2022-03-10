@@ -1,27 +1,28 @@
-## Send instant message with SIP Client
+# Send instant message with SIP Client
 
 
-Step 1:
+### Step 1:
 
 Run the incoming message listener
 
 ```
-php php/listen.php
+php listen.php
 ```
 
 
 
-Step 2:
+### Step 2:
 
 Send an test message 
 
 ```
-php php/message.php
+php message.php
 ```
 
 
+### Result:
 
-Iridium Go! device sends back the following error message:
+Iridium Go! device sends back the following error message despite correct credential guest/guest (default):
 
 > --> MESSAGE sip:guest@192.168.0.1 SIP/2.0
 > 
